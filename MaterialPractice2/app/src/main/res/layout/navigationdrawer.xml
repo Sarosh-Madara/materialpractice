@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/navi_drawer"
+    >
+
+    <LinearLayout
+        android:id="@+id/contents"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <include android:id="@+id/appbar"
+            layout="@layout/appbar"
+            />
+
+        <RelativeLayout
+            android:id="@+id/container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:background="#ffffff"
+        android:layout_gravity="start"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="This is demo"
+        android:textSize="22sp"/>
+
+
+
+</android.support.v4.widget.DrawerLayout>
